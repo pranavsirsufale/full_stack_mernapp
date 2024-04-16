@@ -49,7 +49,7 @@ app.use(errorMiddleware)
 app.use('/api/admin', adminRouter )
 
 
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 3000;
 connectDB().then((dbres) => {
   app.listen(port, () => {
     console.log(`SERVER IS RUNNING AT PORT :: ${port}`);

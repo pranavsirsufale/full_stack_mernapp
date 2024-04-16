@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "bhag": "nodemon server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "proxy":"http://localhost:3000",
